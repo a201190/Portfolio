@@ -9,6 +9,14 @@
     font-size: 3vw;
     font-weight: 300;
     height: 58px;
+    .fa-bars{
+      padding: 6px;
+    color: forestgreen;
+    cursor: pointer;
+    }
+    .fa-bars:hover,.fa-bars:focus{
+      color: red;
+    }
   }
   .Nav-2{
     width: 30%;
@@ -30,4 +38,12 @@
       text-decoration: none;
     }
   }
+}
+.model{
+  position: relative;
+}
+.Img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
