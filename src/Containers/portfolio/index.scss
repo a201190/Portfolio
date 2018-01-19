@@ -1,12 +1,15 @@
 .Portfil{
-    margin: 0em 12.8em;
+    margin: auto;
+    width: auto;
+    max-width: 871.11px;
+    min-width: 414.16px;;
 }
 .port{
     width: 68%;
     margin: auto;   
     .acard{
         margin:0px 10px;
-        width: 400px;
+       max-width: 400px;
         float: left;
         height: 480px;
     }

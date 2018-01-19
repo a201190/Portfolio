@@ -4,7 +4,7 @@ import {Card, CardImg, CardText, CardBody,CardTitle, CardSubtitle} from 'reactst
 class Skill extends React.Component{
     render(){
         return(
-            <Card style={{margin: '0em 12.7em'}}>
+            <Card className="skill1">
             <CardImg top width="100%" src={require('../../image/myskill.jpg')} className="skill" alt="Card image cap" />
             <CardBody>
               <CardTitle>My Skills</CardTitle>

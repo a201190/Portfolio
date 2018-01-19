@@ -22,7 +22,7 @@ class NavBar extends React.Component{
           <ModalHeader toggle={this.toggle}>
              <img src={require("../../image/prof.jpg")} alt="profimg" className="Img"/> Explore
           </ModalHeader>
-          <ModalFooter style={{display:'grid',justifyContent:'flex-start'}}>
+          <ModalFooter style={{display:'grid',justifyContent:'flex-start'}} className="model" >
               <a href="https://github.com/a201190?tab=repositories" className="icon">
                 <i className="fa fa-github" aria-hidden="true"></i>Github
               </a>

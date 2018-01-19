@@ -5,7 +5,7 @@ class About extends React.Component{
     render(){
         return(
             <div>
-                <Card style={{margin: '0em 12.7em'}}>
+                <Card className="about">
                     <CardImg top src={require('../../image/aboutme.jpg')} alt="Card image cap" className="aboutme" />
                     <CardBody>
                     <CardTitle>About Me</CardTitle>

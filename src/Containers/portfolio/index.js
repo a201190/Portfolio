@@ -20,7 +20,7 @@ class Portfolio extends React.Component{
         return(
            <div>
                <Card className="Portfil">
-                    <CardImg top width="100%" height='300px' src={require('../../image/leopetra.png')} alt="Card image cap" />
+                    <CardImg top height='300px' src={require('../../image/leopetra.png')} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Leopetra</CardTitle>
                     <CardText>

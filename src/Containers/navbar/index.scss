@@ -31,12 +31,16 @@
     display: flex;
     li{
           display: unset;
-          margin: 12px;
-    padding: 5px;
+          font-size: 2vw; 
+          margin:1vw;
+          padding:0 2vw;
     }
     a:-webkit-any-link {
       text-decoration: none;
     }
+  }
+  li:hover, li:focus{
+    color: aquamarine;
   }
 }
 .model{
@@ -46,4 +50,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.modal-content{
+   height: 622px;
 }
